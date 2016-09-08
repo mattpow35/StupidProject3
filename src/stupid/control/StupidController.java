@@ -24,7 +24,7 @@ public class StupidController
 	{
 		System.out.println("How was your day?");
 		String input = inputReader.nextLine();
-		System.out.println("Oh, you said: " + input);
+		System.out.println("Oh, you said: " + input + " about your day.");
 	}
 
 }
