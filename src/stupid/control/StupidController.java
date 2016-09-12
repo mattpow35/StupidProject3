@@ -44,6 +44,11 @@ public class StupidController
 		System.out.println("OK, your firs name is " + nameInput + ".");
 		inputReader.nextLine(); //used to clear out the reader and extra text I do not need.
 		
+		System.out.println("What School do you go to?");
+		String schoolInput = inputReader.nextLine();
+		System.out.println("You go to " + schoolInput + ", what a great school!");
+		
+		
 		
 		
 		
