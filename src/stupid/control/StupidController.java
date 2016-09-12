@@ -52,13 +52,12 @@ public class StupidController
 		String placeInput = inputReader.nextLine();
 		System.out.println("You have been to " + placeInput + ", what a cool place! I have never been there, I am only a computer :(");
 		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("Which do you like better, apple or android?");
+		String favinput = inputReader.next();
+		if(!favinput.equals("apple"))
+		{
+			
+		}
 		
 		
 		
