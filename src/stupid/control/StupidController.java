@@ -48,6 +48,11 @@ public class StupidController
 		String schoolInput = inputReader.nextLine();
 		System.out.println("You go to " + schoolInput + ", what a great school!");
 		
+		System.out.println("Where is the coolest place you have visited?");
+		String placeInput = inputReader.nextLine();
+		System.out.println("You have been to " + placeInput + ", what a cool place! I have never been there, I am only a computer :(");
+		
+		
 		
 		
 		
