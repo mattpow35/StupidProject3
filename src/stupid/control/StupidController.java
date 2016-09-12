@@ -33,10 +33,23 @@ public class StupidController
 		System.out.println("How old are you?");
 		int ageInput = inputReader.nextInt();
 		System.out.println("Oh you are only " + ageInput + " years old, you are so young."); 
+		inputReader.nextLine();
 		
 		System.out.println("What is your GPA?");
 		float gpaInput = inputReader.nextFloat();
 		System.out.println("OK you have a " + gpaInput + " grade point average.");
+		
+		System.out.println("What is your name?");
+		String nameInput = inputReader.next();
+		System.out.println("OK, your firs name is " + nameInput + ".");
+		inputReader.nextLine(); //used to clear out the reader and extra text I do not need.
+		
+		
+		
+		
+		
+		
+		
 		
 		
 	}
