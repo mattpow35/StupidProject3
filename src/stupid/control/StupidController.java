@@ -33,7 +33,12 @@ public class StupidController
 		System.out.println("How old are you?");
 		int ageInput = inputReader.nextInt();
 		System.out.println("Oh you are only " + ageInput + " years old, you are so young."); 
-				
+		
+		System.out.println("What is your GPA?");
+		float gpaInput = inputReader.nextFloat();
+		System.out.println("OK you have a " + gpaInput + " grade point average.");
+		
+		
 	}
 
 }
