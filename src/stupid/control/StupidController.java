@@ -54,13 +54,15 @@ public class StupidController
 		
 		System.out.println("Which do you like better, apple or android?");
 		String favinput = inputReader.next();
-		if(!favinput.equals("apple"))
+		if(favinput.equals("android"))
 		{
-			
+			System.out.println("You are dumb, the best is apple.");
 		}
-		
-		
-		
+		if(favinput.equals("apple"))
+		{
+		System.out.println("Good Choice");
+		}
+		System.out.println("that is not one of the choices");
 	}
 
 }
