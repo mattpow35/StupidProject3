@@ -63,6 +63,12 @@ public class StupidController
 		System.out.println("Good Choice");
 		}
 		System.out.println("that is not one of the choices");
+		inputReader.nextLine();
+		
+		System.out.println("What is your favprite color?");
+		String favcolor = inputReader.nextLine();
+		System.out.println("Oh your favorite color is " + favcolor + ", mine is blue.");
+		
 	}
 
 }
